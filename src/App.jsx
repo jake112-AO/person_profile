@@ -19,19 +19,21 @@ function App() {
     <div>
       <Navbar></Navbar>
     </div>
-    <div>
+    <div className='page-container'>
+    <section className="page-section" id="userinfo">
       <About>
-
       </About>
-    </div>
-    <div>
-      <Skills>
+    </section>
+    <section className="page-section" id="skills">
+      <Skills id="skills">
       </Skills>
-    </div>
-    <div>
+    </section>
+    <section className="page-section" id="contact">
+
       <Contact>
-        
+
       </Contact>
+    </section>
     </div>
     </>
   );

@@ -1,1 +1,33 @@
+/* Ensure body scrolls normally */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-y: auto;
+  scroll-behavior: smooth; /* smooth scrolling */
+}
+
+/* Container for sections with scroll snapping */
+.page-container {
+  scroll-snap-type: y mandatory; /* vertical snapping */
+  overflow-y: auto;
+  height: 100vh;
+}
+.page-container::-webkit-scrollbar {
+  display: none;               /* Chrome, Safari, Edge */
+}
+/* Each section fills the viewport */
+.page-section {
+  height: 100vh; /* one full page */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start; /* snap to top of section */
+  padding: 20px;
+}
+
+/* Optional: spacing and background blending */
+.page-section:nth-child(odd) {
+  background: rgba(0,0,0,0.4); /* subtle alternation if needed */
+}
 

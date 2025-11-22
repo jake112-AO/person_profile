@@ -1,8 +1,28 @@
-.Contactinfo {
-  font-size: 1.8rem;
+.Contact {
+  width: 400px;
+  margin: 40px;
+  padding: 25px 30px;
+
+  background: rgba(0, 0, 0, 0.35);   /* transparent dark panel */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.Contactinfo p {
+  font-size: 1.5rem;
   font-weight: 700;
-  color: #ffffff;
-  margin-bottom: 15px;
+  margin: 0;
   text-align: center;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
 }
@@ -10,21 +30,18 @@
 .ContactLinks {
   display: flex;
   justify-content: center;
-  gap: 25px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
 .ContactLinks a {
   text-decoration: none;
-  color: #7cff67; /* greenish glow matching aurora */
+  color: #7cff67; /* green glow matching aurora */
   font-weight: 600;
   font-size: 1.1rem;
   padding: 10px 20px;
 
-  background: rgba(0, 0, 0, 0.35);   /* transparent dark pill */
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-
+  background: rgba(255, 255, 255, 0.08);   /* subtle transparent pill */
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.1);
 
@@ -35,5 +52,7 @@
   color: #3b82f6;  /* change color on hover (blue) */
   transform: translateY(-3px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.35);
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.12);
 }
+
+
