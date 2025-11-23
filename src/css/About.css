@@ -14,7 +14,7 @@
   flex-direction: column;
   gap: 10px;
 
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  /*box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);*/
 }
 
 /* Make the name big & clean */

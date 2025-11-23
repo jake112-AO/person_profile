@@ -1,7 +1,7 @@
 .Contact {
   width: 400px;
   margin: 40px;
-  padding: 25px 30px;
+  padding: 20px 30px;
 
   background: rgba(0, 0, 0, 0.35);   /* transparent dark panel */
   backdrop-filter: blur(10px);
@@ -17,6 +17,7 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  opacity: 1;
 }
 
 .Contactinfo p {
@@ -36,10 +37,10 @@
 
 .ContactLinks a {
   text-decoration: none;
-  color: #7cff67; /* green glow matching aurora */
+  color: White; /* green glow matching aurora */
   font-weight: 600;
   font-size: 1.1rem;
-  padding: 10px 20px;
+  padding: 10px 15px;
 
   background: rgba(255, 255, 255, 0.08);   /* subtle transparent pill */
   border-radius: 12px;
@@ -49,7 +50,7 @@
 }
 
 .ContactLinks a:hover {
-  color: #3b82f6;  /* change color on hover (blue) */
+  color: aqua;  /* change color on hover (blue) */
   transform: translateY(-3px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.35);
   background: rgba(255, 255, 255, 0.12);

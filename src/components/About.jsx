@@ -5,13 +5,13 @@ export default function About(){
         <>
         <div className='UserInfo'>
             <div className="username">
-                Jake Jerry
+                Jerry Xiao
             </div>
             <div className="School">
                 University of Florida
             </div>
             <div className="Major">
-                Computer Sciecne
+                Computer Science
             </div>
             <div className="description">
                 <p>Computer Science student at the University of Florida passionate about building impactful software. I specialize in algorithms, data structures, and system design — creating technology that meaningfully contributes to society.</p> 
